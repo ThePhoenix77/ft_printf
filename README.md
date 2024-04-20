@@ -48,7 +48,7 @@ gcc -o my_program my_program.c ft_printf.c [other_source_files.c] -I.
   
 ## Contact
 
-If you have any questions, suggestions, or issues, feel free to contact the project maintainer (tboussad):
+If you have any questions, suggestions, or issues, feel free to contact the project maintainer:
 
 - Boussaden Taha
 - tahaboussaden7322@gmail.com
