@@ -1,4 +1,4 @@
-# Custom Printf Implementation (ft_printf)
+# ft_printf (Custom Implementation)
 
 This is a custom implementation of the `printf` function in C, named `ft_printf`, developed as part of the `libft` library.
 
@@ -8,6 +8,7 @@ This is a custom implementation of the `printf` function in C, named `ft_printf`
 
 ## Features
 
+- Handles null pointers gracefully
 - Supports the following format specifiers:
   - `%c`: Character
   - `%s`: String
@@ -17,10 +18,6 @@ This is a custom implementation of the `printf` function in C, named `ft_printf`
   - `%x`: Hexadecimal (lowercase)
   - `%X`: Hexadecimal (uppercase)
   - `%%`: Percent sign
-
-- Additional features:
-  - Handles null pointers gracefully
-  - Properly handles width and precision specifiers (not yet implemented)
 
 ## Usage
 
@@ -42,13 +39,3 @@ To build ft_printf, simply compile the source files along with your project:
   ```bash
 gcc -o my_program my_program.c ft_printf.c [other_source_files.c] -I.
   ```
-
-## Authors
-  Boussaden TAHA [tn_ix77]
-  
-## Contact
-
-If you have any questions, suggestions, or issues, feel free to contact the project maintainer:
-
-- Boussaden Taha
-- tahaboussaden7322@gmail.com
